@@ -25,7 +25,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		
+		<!-- web mvc application이라고 판단하고 setting 해준다?-->
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId> 
+		</dependency> -->
+		
+		<!-- Spring Reactive Web-->
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>  
+		</dependency> -->
+		
 		<!-- springvoot starter for testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
