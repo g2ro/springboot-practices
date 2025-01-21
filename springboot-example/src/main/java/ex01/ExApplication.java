@@ -8,7 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class ExApplication { // Bootstrapping Class, Configuration class main에서 run 함수를 실행되면 read.me 참고
+public class ExApplication { // Bootstrap Class, Configuration class main에서 run 함수를 실행되면 read.me 참고
 
 	@Bean
 	public Map<?, ?> myMap() {
@@ -18,7 +18,7 @@ public class ExApplication { // Bootstrapping Class, Configuration class main에
 	public static void main(String[] args) {
 //		ConfigurableApplicationContext ac = null;
 //		try {
-//			ac = SpringApplication.run(ExApplication.class, args); // run 내부에서 컨테이너를 만들고 ExApplication이 스캔을 한다. start를 만나
+//			ac = SpringApplication.run(ExApplication.class, args); // run 내부에서 컨테이너를 만들고 ExApplication이 스캔을 한다. start를 만나 // run => bootstrapping 하는 함수
 //																	// run 은 부스트랩 메서드
 //			System.out.println("ExApplication runs..." + ac.getBean("myMap", Map.class).get("greetings"));
 //		} catch (Exception ignore) {
