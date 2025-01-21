@@ -1,0 +1,11 @@
+# spring configuration
+spring:
+   application:
+      name: webmvc
+
+
+#
+server:
+   port: 8088
+   servlet:
+       context-path: /webmvc
