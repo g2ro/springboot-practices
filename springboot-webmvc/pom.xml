@@ -23,6 +23,13 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>--> <!--  spring-boot-starter-web이 존재하기 때문에 core가 필요없다. --> 
 		
+		<!-- springboot devtools-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		
+		
 		<!-- springboot starter for web(MVC) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

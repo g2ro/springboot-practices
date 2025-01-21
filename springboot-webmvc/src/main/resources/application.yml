@@ -3,9 +3,13 @@ spring:
    application:
       name: webmvc
 
-
-#
+   devtools:
+      restart:
+         enabled: true
+      livereload:
+         enabled: true
+# server Configuration
 server:
    port: 8088
    servlet:
-       context-path: /webmvc
+       context-path: /
