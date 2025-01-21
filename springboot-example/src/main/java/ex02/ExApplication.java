@@ -21,6 +21,7 @@ public class ExApplication {
 	public ApplicationRunner applicationRunnser() {
 		return new HelloWorldRunner(myMap());
 	}
+	
 	public static void main(String[] args) {
 		try (ConfigurableApplicationContext ac = SpringApplication.run(ExApplication.class, args)) {
 		}
